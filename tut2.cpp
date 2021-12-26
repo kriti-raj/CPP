@@ -3,7 +3,7 @@ using namespace std;
 int glob = 5; 
 void sum()
 {
-    cout<<glob;
+    cout<<"sum"<<glob;
 }
 
 int main()
