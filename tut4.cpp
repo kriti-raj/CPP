@@ -7,6 +7,13 @@ typedef struct employee
     char favChar;
     float salary;
 } ep;
+union student
+{
+    int Id;
+    char Char;
+    float marks;
+};
+
 
 int main()
 {
@@ -25,5 +32,12 @@ int main()
     cout <<"The Value is " << Raj.eId << endl
          <<"The Value is " << Raj.favChar << endl
          <<"The Value is " << Raj.salary << endl;
+
+    union student Ramesh;
+    Ramesh.Id = 1;
+    // Ramesh.Char = 'R';
+    // Ramesh.marks = 500;
+    
+    cout<<Ramesh.Id<<endl;
     return 0;
 }
