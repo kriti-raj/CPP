@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-struct employee
+typedef struct employee
 {
     int eId;
     char favChar;
     float salary;
-};
+} ep;
 
 int main()
 {
-    struct employee Kriti;
+    ep Kriti;
     struct employee Raj;
     Kriti.eId = 1;
     Kriti.favChar = 'K';
